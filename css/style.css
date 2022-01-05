@@ -6,6 +6,9 @@
   background-color: rgb(245, 245, 245);
 }
 
+p {
+  font-size: 1.3em;
+}
 /* .my-custom-row {
   background-color: blanchedalmond;
   height: 400px;
@@ -16,31 +19,31 @@
 } */
 
 /* These are the KEY styles - you can add them directly to any object you want in your project */
-.fancy-border-radius {
+/* .fancy-border-radius {
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 
   /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
-  width: 400px;
+/* width: 400px;
   height: 400px;
   background: #ad5389;
   background: -webkit-linear-gradient(to right, #cfac11, #c55431);
   background: linear-gradient(to right, #cfac11, #c55431);
   box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   padding-right: 20px;
-}
+} */
 
-.hd-gr {
+/* .hd-gr {
   text-transform: uppercase;
   background: linear-gradient(to left, #cfac11 0%, #c55431 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-}
+} */
 
-.jumbotron {
-  /* background: url("/img/pexels-daniel-frese-2984224.jpeg") no-repeat center center;
-  background-size: cover; */
+/* .jumbotron {
+  background: url("/img/pexels-daniel-frese-2984224.jpeg") no-repeat center center;
+  background-size: cover;
   height: 800px;
 }
 
@@ -55,4 +58,4 @@
 .nav-link:hover {
   color: rgb(23, 53, 88);
   border-bottom: 1px solid rgb(23, 53, 88);
-}
+} */
