@@ -2,6 +2,7 @@
 const quoteArry = [];
 const mainQuote = document.getElementById("mainquote");
 const list = document.querySelector("#list");
+const quote = getQuote();
 // list.innerHTML = "";
 
 //Event listneres
@@ -23,8 +24,9 @@ function renderQuote(quote) {
   document.getElementById("addFavorites").addEventListener("click", (e) => {
     const div = document.createElement("div");
     div.innerHTML = `<div id="quoteListOuter" class="row d-flex justify-content-center align-items-center gap-5">
-    <div id="quoteListInner" class="col-10 row shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"><p id="innerText">${quoteArry}</p></div>
+    <div id="quoteListInner" class="col-10 row shadow bg-body rounded p-3 m-3 d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"><p id="innerText" class="fav-quotes-p">${quoteArry}</p></div>
     <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button></div>`;
+
     list.append(div);
     div.addEventListener("click", () => {
       div.remove();
@@ -32,5 +34,3 @@ function renderQuote(quote) {
   });
   console.log(quoteArry);
 }
-
-const quote = getQuote();

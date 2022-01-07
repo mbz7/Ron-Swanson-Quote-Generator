@@ -8,23 +8,60 @@
 
 .quote-main-bkg {
   background-color: rgb(247, 247, 247);
-  z-index: 1;
+  margin-bottom: 89px;
+  margin-top: 61px;
+  margin-left: 60px;
 }
 
 .fav-btn {
   background-color: rgb(187, 187, 187);
 }
-p {
-  font-size: 1.3em;
+
+.container-main-bg {
+  padding-bottom: 50px;
 }
 
-.fav-quotes-container {
-  margin-top: 100px;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60pt;
+  font-weight: 900;
+  padding-top: 0.15em;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 25pt;
+  font-weight: 300;
+}
+
+p {
+  font-size: 18pt;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.fav-quotes-c1 {
+  margin-top: -25px;
+  background-color: rgb(235, 235, 235);
+  border-top: 20px solid #d7a838;
+  z-index: 3;
+  position: relative;
+}
+
+.fav-quotes-c2 {
+  padding-top: 100px;
   height: auto;
+  background-color: rgb(235, 235, 235);
 }
 
 .fav-quotes-row {
   padding-bottom: 100px;
+}
+
+.fav-quotes-p {
+  font-size: 12pt;
+  padding: 1.2em;
 }
 
 .quote-bk {
@@ -40,8 +77,20 @@ p {
   z-index: 2;
   height: auto;
   width: auto;
-  /* margin-left: 100px; */
+  margin-left: 1.1em;
+  margin-top: 25px;
   position: relative;
+  left: 200px;
+}
+
+.div-ron {
+  height: 700px;
+}
+
+.parks-and-rec-logo {
+  height: 85px;
+  width: auto;
+  padding-bottom: 20px;
 }
 /* .my-custom-row {
   background-color: blanchedalmond;

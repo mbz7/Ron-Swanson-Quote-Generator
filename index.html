@@ -15,77 +15,80 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
     <!-- Google Fonts -->
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
-      rel="stylesheet"
-    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,900;1,300&display=swap" rel="stylesheet" />
 
     <title>Ron Swanson's Soapbox</title>
   </head>
 
   <body>
-    <!-- START OF BODY -->
     <div class="container-fluid homepage-bg">
-      <!-- HEADER -->
+      <!-- START OF BODY -->
+      <div class="container-fluid homepage-bg">
+        <!-- HEADER -->
 
-      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <div class="">
-          <h2 class="px-3 text-center">RON SWANSON'S SOAPBOX</h2>
-          <h4>quotes by the man, the myth, the legend</h4>
-        </div>
-      </header>
+        <header class="d-flex align-items-center justify-content-center py-5 mb-4 border-bottom text-center">
+          <div class="">
+            <img class="text-center parks-and-rec-logo" src="/img/parks_and_rec_logo_2.png" alt="logo for Parks and Rec" />
+            <h1 class="px-3 text-center">RON SWANSON'S SOAPBOX</h1>
+            <h3 class="px-3 text-center">quotes by the man, the myth, the legend</h3>
+          </div>
+        </header>
 
-      <!-- Main Quote Section -->
-      <div class="container-fluid d-flex align-items-center justify-content-center">
-        
-        <div>
-          <img class="ron-img col-lg-2 img-fluid" src="/img/259-2595788_ron-swanson-hd-png-download copy.png" alt="Photo of Ron Swanson" />
-        </div>
-          <div class="quote-main-bkg container shadow p-3 mb-5 rounded-lg d-flex align-items-center justify-content-center col-lg-10" style="height: 600px; margin-top: 100px; border-radius: 30px">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-1 text-center">
-                  <p>"</p>
-                </div>
-                <div class="text-center p-5 col-8 w-75 d-flex align-items-center justify-content-center" style="height: 300px">
-                  <p id="mainquote">"I’ve had the same haircut since 1978 and I’ve driven the same car since 1991. I’ve used the same wooden comb for three decades. I have one bowl. I still get my milk delivered by horse."</p>
-                </div>
-                <div class="col-1 text-center">
-                  <p>"</p>
-                </div>
-                <hr class="solid w-75 mt-5" />
-                <div class="container mt-5">
-                  <div class="row d-flex justify-content-center align-items-center px-5 gap-5">
-                    <button type="button" id="addFavorites" class="fav-btn shadow rounded btn col-3" style="height: 50px">Add To Favorites</button>
-                    <button type="button" id="btn-gn" class="shadow btn btn-warning col-4" style="height: 50px">Generate New Quote</button>
+        <!-- Main Quote Section -->
+        <div class="container-main-bkg container-fluid">
+          <div class="d-flex align-items-center justify-content-start">
+            <div class="d-flex align-items-end justify-content-center">
+              <img class="ron-img col-lg-2 col-md-2 col-sm-1 img-fluid" src="/img/259-2595788_ron-swanson-hd-png-download copy.png" alt="Photo of Ron Swanson" />
+            </div>
+            <div class="quote-main-bkg container shadow p-3 rounded-lg d-flex align-items-center justify-content-center col-lg-9" style="height: 600px; border-radius: 30px; padding: 0.25em">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-1 text-center">
+                    <img class="img-fluid quote-1" src="img/quote-icon-11_2.png" alt="Quote" />
+                  </div>
+                  <div class="text-center p-5 m-3 col-8 w-60 d-flex align-items-center justify-content-center" style="height: 300px">
+                    <p id="mainquote">"I’ve had the same haircut since 1978 and I’ve driven the same car since 1991. I’ve used the same wooden comb for three decades. I have one bowl. I still get my milk delivered by horse."</p>
+                  </div>
+                  <div class="col-1 d-flex align-items-end">
+                    <img class="img-fluid" src="/img/quote-icon-11.png" alt="Quote" />
+                  </div>
+                  <hr class="solid w-75 mt-5" />
+                  <div class="container mt-5">
+                    <div class="row d-flex justify-content-center align-items-center px-5 gap-5">
+                      <button type="button" id="addFavorites" class="fav-btn shadow rounded btn col-lg-3" style="height: 60px">Add To Favorites</button>
+                      <button type="button" id="btn-gn" class="shadow btn btn-warning col-lg-4" style="height: 60px">Generate New Quote</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        
         </div>
+      </div>
 
-        <!-- Favorite Quotes Section -->
-        <div class="container d-flex justify-content-center align-items-center fav-quotes-container">
+      <!-- Favorite Quotes Section -->
+      <div class="container-fluid fav-quotes-c1">
+        <div class="container d-flex justify-content-center align-items-center fav-quotes-c2 homepage-bg">
           <div class="row text-center w-100 fav-quotes-row">
             <h2 class="pb-5">Favorite Quotes</h2>
             <hr class="solid" />
             <div class="container" id="list">
-              <!-- <div id="quoteListOuter" class="row d-flex justify-content-center align-items-center gap-5">
-              <div id="quoteListInner" class="col-10 row shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"><p id="innerText">Favorite Quote</p></div>
-              <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button>
-            </div> -->
+              <div id="quoteListOuter" class="row d-flex justify-content-center align-items-center gap-5">
+                <div id="quoteListInner" class="col-10 row shadow bg-body rounded p-3 m-3 d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"><p id="innerText" class="fav-quotes-p">Favorite Quote</p></div>
+                <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small bg-dark text-white d-flex align-items-center justify-content-center p-3" style="height: auto">
-      <div class="footer-copyright text-center py-3">©2021 | Parks and Rec</div>
-    </footer>
+      <!-- Footer -->
+      <footer class="page-footer font-small bg-dark text-white d-flex align-items-center justify-content-center p-3" style="height: auto">
+        <div class="footer-copyright text-center py-3">©2021 | Parks and Rec</div>
+      </footer>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
