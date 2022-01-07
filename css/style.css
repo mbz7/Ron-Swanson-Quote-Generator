@@ -75,7 +75,7 @@ p {
 
 .ron-img {
   z-index: 2;
-  height: 500px;
+  height: auto;
   width: auto;
   margin-left: 1.1em;
   margin-top: 215px;
