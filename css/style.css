@@ -75,10 +75,10 @@ p {
 
 .ron-img {
   z-index: 2;
-  height: auto;
+  height: 500px;
   width: auto;
   margin-left: 1.1em;
-  margin-top: 25px;
+  margin-top: 215px;
   position: relative;
   left: 200px;
 }
@@ -91,6 +91,9 @@ p {
   height: 85px;
   width: auto;
   padding-bottom: 20px;
+}
+.quote-list-div {
+  border-radius: 20px;
 }
 /* .my-custom-row {
   background-color: blanchedalmond;
