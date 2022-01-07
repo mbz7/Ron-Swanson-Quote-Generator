@@ -8,6 +8,7 @@
 
 .quote-main-bkg {
   background-color: rgb(247, 247, 247);
+  z-index: 1;
 }
 
 .fav-btn {
@@ -37,9 +38,11 @@ p {
 
 .ron-img {
   z-index: 2;
-  height: 600px;
+  height: auto;
   width: auto;
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  position: relative;
+}
 /* .my-custom-row {
   background-color: blanchedalmond;
   height: 400px;
