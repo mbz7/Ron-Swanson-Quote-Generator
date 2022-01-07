@@ -25,9 +25,9 @@
 
   <body>
     <!-- START OF BODY -->
-
-    <!-- HEADER -->
     <div class="container-fluid homepage-bg">
+      <!-- HEADER -->
+
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <div class="">
           <!-- <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-boxes"
@@ -41,134 +41,55 @@
       </header>
 
       <!-- Main Quote Section -->
-      <div class="container shadow p-3 mb-5 bg-body rounded-lg d-flex align-items-center justify-content-center" style="height: 600px; margin-top: 100px; border-radius: 30px">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-1 text-center">
-              <p>"</p>
-            </div>
-            <div class="text-center p-5 col-8 w-75 d-flex align-items-center justify-content-center" style="height: 300px">
-              <p id="mainquote">"I’ve had the same haircut since 1978 and I’ve driven the same car since 1991. I’ve used the same wooden comb for three decades. I have one bowl. I still get my milk delivered by horse."</p>
-            </div>
-            <div class="col-1 text-center">
-              <p>"</p>
-            </div>
-            <hr class="solid w-75 mt-5" />
-            <div class="container mt-5">
-              <div class="row d-flex justify-content-center align-items-center px-5 gap-5">
-                <button type="button" id="addFavorites" class="shadow rounded btn btn-secondary col-2" style="height: 50px">Add To Favorites</button>
-                <button type="button" id="btn-gn" class="shadow btn btn-warning col-4" style="height: 50px">Generate New Quote</button>
+      <div class="container-fluid">
+        <div>
+          <div>
+            <img class="ron-img" src="/img/259-2595788_ron-swanson-hd-png-download copy.png" alt="Photo of Ron Swanson" />
+          </div>
+          <div class="quote-main-bkg container shadow p-3 mb-5 rounded-lg d-flex align-items-center justify-content-center" style="height: 600px; margin-top: 100px; border-radius: 30px">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-1 text-center">
+                  <p>"</p>
+                </div>
+                <div class="text-center p-5 col-8 w-75 d-flex align-items-center justify-content-center" style="height: 300px">
+                  <p id="mainquote">"I’ve had the same haircut since 1978 and I’ve driven the same car since 1991. I’ve used the same wooden comb for three decades. I have one bowl. I still get my milk delivered by horse."</p>
+                </div>
+                <div class="col-1 text-center">
+                  <p>"</p>
+                </div>
+                <hr class="solid w-75 mt-5" />
+                <div class="container mt-5">
+                  <div class="row d-flex justify-content-center align-items-center px-5 gap-5">
+                    <button type="button" id="addFavorites" class="fav-btn shadow rounded btn col-3" style="height: 50px">Add To Favorites</button>
+                    <button type="button" id="btn-gn" class="shadow btn btn-warning col-4" style="height: 50px">Generate New Quote</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Favorite Quotes Section -->
-      <div class="container d-flex justify-content-center" style="margin-top: 100px">
-        <div class="row text-center w-100">
-          <h2>Favorite Quotes</h2>
-          <hr class="solid" style="margin-top: 50px" />
-          <div class="container" id="list">
-            <div id="quoteListOuter" class="row d-flex justify-content-center align-items-center gap-5">
+        <!-- Favorite Quotes Section -->
+        <div class="container d-flex justify-content-center align-items-center fav-quotes-container">
+          <div class="row text-center w-100 fav-quotes-row">
+            <h2 class="pb-5">Favorite Quotes</h2>
+            <hr class="solid" />
+            <div class="container" id="list">
+              <!-- <div id="quoteListOuter" class="row d-flex justify-content-center align-items-center gap-5">
               <div id="quoteListInner" class="col-10 row shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"><p id="innerText">Favorite Quote</p></div>
               <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button>
-            </div>
-            <!-- <div class="row d-flex justify-content-center align-items-center gap-5">
-              <div class="col-10 row shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px">Favorite Quote</div>
-              <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button>
-            </div>
-            <div class="row d-flex justify-content-center align-items-center gap-5">
-              <div class="col-10 row shadow p-3 mb-5 bg-body rounded d-flex justify-content-center align-items-center" style="height: 150px; margin-top: 50px"></div>
-              <button type="button" class="btn btn-warning col-1 d-flex justify-content-center align-items-center" style="height: 35px; width: 35px">X</button>
             </div> -->
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- <div class="container vw-100 vh-100">
-      <div class="shadow p-3 mb-5 bg-body rounded h-75 row gx-5">
-        <div class="container text-center h-auto d-flex align-items-center justify-content-center">
-          <div class="container d-flex align-items-center">
-            <p class="text-dark">"I’ve had the same haircut since 1978 and I’ve driven the same car since 1991. I’ve used the same wooden comb for three decades. I have one bowl. I still get my milk delivered by horse."</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="container d-flex align-items-start justify-content-center w-50 h-50">
-        <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4" />
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <p class="lead">
-              <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- ===============ABOUT ME - SECTION================ -->
-
-    <!-- <div class="container-fluid d-flex justify-content-center align-items-center mt-5 pt-5 pb-5 bg-light about-div" id="about-me">
-      <div class="row gx-5">
-        <div class="order-2 col-lg-6 d-flex justify-content-center align-items-center mt-5 mb-5 mr-5">
-          <div>
-            <h2 class="display-4 mb-3 text-uppercase hd-gr">
-              <strong>About Me</strong>
-            </h2>
-            <p class="col-8 d-flex">I am currently living in San Diego, CA. Along with the web stuff I enjoy graphic design and have 10 years experience in the industry. I have put together small scale web sites in the past and really looking forward to increasing my skillset.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-6 order-1 d-flex justify-content-center">
-          <img class="img-fluid fancy-border-radius" src="./img/undraw_surfer_re_hncq.svg" alt="#" />
-        </div>
-      </div>
-    </div> -->
-
-    <!-- ===============RESOURCES - SECTION================ -->
-
-    <!-- Jumbotron -->
-    <!-- <div class="mask" id="resources" style="background-color: rgba(24, 61, 104, 0.815)">
-      <div class="container-fluid d-flex align-items-start justify-content-center">
-        <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white lh-lg col-8">
-          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
-            <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"></path>
-            <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"></path>
-          </svg>
-          <h1 class="mb-3 text-uppercase" id="resources-h1">Resources</h1>
-
-          <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.</p> -->
-
-    <!-- <div class="mt-5 d-flex align-items-center justify-content-center flex-wrap p-5 mb-5" style="height: 200px">
-            <div class="col-lg-3 mb-5"><h3>Github</h3></div>
-            <div class="col-lg-3 mb-5"><h3>Portfolio</h3></div>
-            <div class="col-lg-3 mb-5"><h3>LinkedIn</h3></div>
-          </div>
-          <div id="resources-js"></div>
-        </div>
-      </div>
-    </div> -->
-    <!-- Jumbotron -->
-
-    <!-- <hr class="solid" /> -->
-
-    <!-- ============FOOTER - SECTION============== -->
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark text-white d-flex align-items-center justify-content-center p-3" style="height: auto">
-      <!-- Copyright -->
       <div class="footer-copyright text-center py-3">©2021 | Parks and Rec</div>
-      <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-
-    <!-- =================END OF BODY================ -->
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
