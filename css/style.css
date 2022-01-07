@@ -26,14 +26,20 @@ p {
   padding-bottom: 100px;
 }
 
+.quote-bk {
+  background-image: url(/img/259-2595788_ron-swanson-hd-png-download\ copy.png);
+  background-repeat: no-repeat;
+  transform: scale(0.75);
+  display: relative;
+  left: 0;
+  bottom: 0;
+}
+
 .ron-img {
   z-index: 2;
-  position: absolute;
-  height: 100px;
+  height: 400px;
   width: auto;
-  left: 10px;
-  top: 100px;
-}
+  margin-left: 100px;
 /* .my-custom-row {
   background-color: blanchedalmond;
   height: 400px;
