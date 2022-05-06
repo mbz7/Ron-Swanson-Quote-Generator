@@ -27,6 +27,8 @@ p {
 
 .main-div {
   height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .parks-and-rec-logo {
@@ -57,8 +59,8 @@ p {
   height: 30rem;
   width: auto;
   margin-left: -50px;
+  margin-bottom: 0;
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-right: 50px;
 }
