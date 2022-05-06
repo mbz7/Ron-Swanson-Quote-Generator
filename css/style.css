@@ -5,10 +5,17 @@ h1 {
   padding-top: 0.15em;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40pt;
+  font-weight: 900;
+  padding-top: 0.15em;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-style: italic;
-  font-size: 25pt;
+  font-size: 20pt;
   font-weight: 300;
 }
 
@@ -35,7 +42,7 @@ p {
   /* margin-bottom: 89px;
   margin-top: 61px;
   margin-left: 60px; */
-  height: 600px;
+  height: auto;
   border-radius: 30px;
   padding: 1.2 rem;
 }
@@ -80,14 +87,33 @@ p {
   bottom: 0;
 }
 
+.main-content-parent {
+  position: relative;
+  /* height: 100%;
+  width: 100%; */
+}
+
 .ron-img {
   z-index: 2;
-  height: auto;
+  height: 30rem;
   width: auto;
   /* margin-left: 1.1em;
   margin-bottom: 215px; */
+  margin-left: -50px;
   position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-right: 50px;
 }
+
+/* @media (max-width: 640px) and (max-width: 992px) {
+  .ron-img {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+} */
 
 .parks-and-rec-logo {
   height: 85px;
