@@ -3,7 +3,6 @@ const quoteArry = [];
 const mainQuote = document.getElementById("mainquote");
 const list = document.querySelector("#list");
 const quote = getQuote();
-// list.innerHTML = "";
 
 //Event listneres
 document.querySelector("#btn-gn").addEventListener("click", getQuote);

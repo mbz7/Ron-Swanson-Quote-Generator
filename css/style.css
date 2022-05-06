@@ -20,156 +20,45 @@ h3 {
 }
 
 p {
-  font-size: 18pt;
+  font-size: 14pt;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-}
-
-.col- {
-  border: black;
 }
 
 .main-div {
   height: 100vh;
 }
 
+.parks-and-rec-logo {
+  height: 85px;
+  width: auto;
+  padding-bottom: 20px;
+}
+
 .homepage-bg {
   background-color: rgb(235, 235, 235);
 }
 
+.main-content-parent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
 .quote-main-bkg {
   background-color: rgb(247, 247, 247);
-  /* margin-bottom: 89px;
-  margin-top: 61px;
-  margin-left: 60px; */
   height: auto;
   border-radius: 30px;
   padding: 1.2 rem;
-}
-
-.fav-btn {
-  background-color: rgb(187, 187, 187);
-}
-
-.container-main-bg {
-  padding-bottom: 50px;
-}
-
-.fav-quotes-c1 {
-  margin-top: -25px;
-  background-color: rgb(235, 235, 235);
-  border-top: 20px solid #d7a838;
-  z-index: 3;
-  position: relative;
-}
-
-.fav-quotes-c2 {
-  padding-top: 100px;
-  height: auto;
-  background-color: rgb(235, 235, 235);
-}
-
-.fav-quotes-row {
-  padding-bottom: 100px;
-}
-
-.fav-quotes-p {
-  font-size: 12pt;
-  padding: 1.2em;
-}
-
-.quote-bk {
-  background-image: url(/img/259-2595788_ron-swanson-hd-png-download\ copy.png);
-  background-repeat: no-repeat;
-  transform: scale(0.75);
-  display: relative;
-  left: 0;
-  bottom: 0;
-}
-
-.main-content-parent {
-  position: relative;
-  /* height: 100%;
-  width: 100%; */
 }
 
 .ron-img {
   z-index: 2;
   height: 30rem;
   width: auto;
-  /* margin-left: 1.1em;
-  margin-bottom: 215px; */
   margin-left: -50px;
   position: absolute;
   bottom: 0;
   left: 0;
   margin-right: 50px;
 }
-
-/* @media (max-width: 640px) and (max-width: 992px) {
-  .ron-img {
-    display: none;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-} */
-
-.parks-and-rec-logo {
-  height: 85px;
-  width: auto;
-  padding-bottom: 20px;
-}
-.quote-list-div {
-  border-radius: 20px;
-}
-/* .my-custom-row {
-  background-color: blanchedalmond;
-  height: 400px;
-} */
-
-/* .container-about-me {
-  background-color: rgb(204, 204, 204);
-} */
-
-/* These are the KEY styles - you can add them directly to any object you want in your project */
-/* .fancy-border-radius {
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-
-  /* These are ADDITIONAL styles - add them if you want an object exactly like in the demo above */
-/* width: 400px;
-  height: 400px;
-  background: #ad5389;
-  background: -webkit-linear-gradient(to right, #cfac11, #c55431);
-  background: linear-gradient(to right, #cfac11, #c55431);
-  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
-  padding-right: 20px;
-} */
-
-/* .hd-gr {
-  text-transform: uppercase;
-  background: linear-gradient(to left, #cfac11 0%, #c55431 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-} */
-
-/* .jumbotron {
-  background: url("/img/pexels-daniel-frese-2984224.jpeg") no-repeat center center;
-  background-size: cover;
-  height: 800px;
-}
-
-.about-div {
-  height: 80vh;
-}
-
-.about-div-2 {
-  margin-left: 10px;
-}
-
-.nav-link:hover {
-  color: rgb(23, 53, 88);
-  border-bottom: 1px solid rgb(23, 53, 88);
-} */
