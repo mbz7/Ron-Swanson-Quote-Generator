@@ -20,6 +20,11 @@ function renderQuote(quote) {
   console.log(quote);
   let currentQuote = quote;
   mainQuote.innerText = currentQuote;
+
+  function addQuoteToFavorites(currentQuote) {
+    let newQuote = 
+  }
+
   quoteArry.push(quote);
   document.getElementById("addFavorites").addEventListener("click", (e) => {
     const div = document.createElement("div");
