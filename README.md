@@ -1,6 +1,7 @@
 # Ron Swanson Quote Generator
 
-[View Live Site](https://ron-swanson-quote-generator-1.herokuapp.com/)
+### [View Live Site](https://ron-swanson-quote-generator-1.herokuapp.com/)
+![View Live Site](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)(https://ron-swanson-quote-generator-1.herokuapp.com/)
 
 ## Description
 
