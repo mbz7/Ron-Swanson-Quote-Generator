@@ -4,7 +4,7 @@ const mainQuote = document.getElementById("mainquote");
 const list = document.querySelector("#list");
 const quote = getQuote();
 
-//Event listneres
+//Event listners
 document.querySelector("#btn-gn").addEventListener("click", getQuote);
 
 //Fetch functions
